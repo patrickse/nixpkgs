@@ -18,6 +18,10 @@
         version = "0.8.0";
         hash = "sha256-jLsLN/Ny5zL4MSaKS3cb2L4WBCKZHVLiR2RkPAL8JnY=";
       };
+      nrfutil-toolchain-manager = {
+        version = "0.15.0";
+        hash = "sha256-/bQx4yu1ybCO2TBd7MctxCANiYO5c1qCDYSjXm7hLcE=";
+      };
       nrfutil-sdk-manager = {
         version = "1.8.0";
         hash = "sha256-DsGuOQ6rzwit5oeG4ZLObCOaxMt8WB+YYnuXRYtqq4U=";

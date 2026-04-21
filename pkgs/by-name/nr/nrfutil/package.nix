@@ -90,7 +90,7 @@ let
       (
         [
           "nrfutil"
-          "nrfutil-completion"
+          # "nrfutil-completion"
         ]
         ++ extensions
       );
@@ -133,9 +133,9 @@ symlinkJoin {
     ''
       wrapProgram "$out"/bin/nrfutil ${wrapProgramArgs}
 
-      installShellCompletion --cmd nrfutil \
-        --bash $(realpath "$out"/share/nrfutil-completion/scripts/bash/setup.bash) \
-        --zsh $(realpath "$out"/share/nrfutil-completion/scripts/zsh/_nrfutil)
+     # installShellCompletion --cmd nrfutil \
+     #   --bash $(realpath "$out"/share/nrfutil-completion/scripts/bash/setup.bash) \
+     #   --zsh $(realpath "$out"/share/nrfutil-completion/scripts/zsh/_nrfutil)
     '';
 
   passthru = {
